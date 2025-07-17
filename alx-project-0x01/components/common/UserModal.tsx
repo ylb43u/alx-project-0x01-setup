@@ -59,7 +59,7 @@ const UserModal: React.FC<UserModalProps> = ({ onClose, onSubmit }) => {
   };
   
   return (
-    <div className="absolute inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+    <div className="absolute left-0 right-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
       <div className="bg-white rounded-lg shadow-lg max-w-md w-full p-6 relative animate-fade-in">
         <button className="absolute top-3 right-3 text-gray-500 hover:text-red-500" onClick={()=>onClose()}>
           Close

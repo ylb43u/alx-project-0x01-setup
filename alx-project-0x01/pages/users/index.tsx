@@ -12,7 +12,7 @@ const Users: React.FC<{users: UserProps[]}> = ({ users }) => {
       <Header />
       <main className="p-4 space-y-4">
         <h1 className="text-2xl font-bold mb-4">Users</h1>
-        {users.map((user) => (
+        {users.map((user:UserProps) => (
           <UserCard key={user.id} user={user} />
         ))}
       </main>

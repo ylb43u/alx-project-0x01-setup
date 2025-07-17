@@ -6,7 +6,7 @@ import { UserProps } from '@/interfaces';
 
 
 
-const UsersPage: React.FC<{users: UserProps[]}> = ({ users }) => {
+const Users: React.FC<{users: UserProps[]}> = ({ users }) => {
   return (
     <>
       <Header />
@@ -32,4 +32,4 @@ export async function getStaticProps() {
   };
 }
 
-export default UsersPage;
+export default Users;
